@@ -185,7 +185,7 @@ st.subheader("Projects")
 
 projects = [
     (" BMI - Calculator", "- **Tech Stack:** Python, Apache Kafka, AWS S3, Spark, Tableau  \n- Built a real-time pipeline for flight & weather data, stored in S3 and analyzed with Spark and Tableau.", "https://tkltincb1syh8x7dyybwjq.on.drv.tw/www.bmicalculator.com/"),
-    (" House PricingSite – Clustering in Python", "- Used K-Means clustering to group customers for marketing insights.  \n- **Tech Stack:** Pandas, Seaborn, Scikit-learn", "https://tkltincb1syh8x7dyybwjq.on.drv.tw/www.house-price-prediction.com/"),
+    (" House PricingSite", "- Used K-Means clustering to group customers for marketing insights.  \n- **Tech Stack:** Pandas, Seaborn, Scikit-learn", "https://tkltincb1syh8x7dyybwjq.on.drv.tw/www.house-price-prediction.com/"),
     (" Motorola MobileSales Dashboard – Interactive Visuals", "Created a dashboard with slicers, pivot tables, and charts to analyze company KPIs.", "https://app.powerbi.com/groups/me/reports/5da5f500-0b26-4afb-86c9-ea24a2464c8d/8552c77386d8085392cc?experience=power-bi"),
 ]
 
@@ -194,6 +194,11 @@ for title, desc, link in projects:
         st.write(desc)
         if "BMI - Calculator" in title:
             st.image("assets/projects/BMI_calculator.png", use_container_width=True)
+        if "House PricingSite" in title:
+            st.image("assets/projects/House_PricingSite.png", use_container_width=True)
+        if "Motorola MobileSales Dashboard – Interactive Visuals" in title:
+            st.image("assets/projects/Motorola_mobilesales_dashboard.png", use_container_width=True)
+        
         st.markdown(f"[🔗 GitHub Repo]({link})", unsafe_allow_html=True)
 
 # --- Certifications ---
