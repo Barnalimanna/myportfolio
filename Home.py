@@ -207,10 +207,9 @@ certs = [
     ("PowerBi_Project", "assets/certifications/PowerBi_Project.jpg")
 ]
 cert_cols = st.columns(4)
-for col, (title, path, url) in zip(cert_cols, certs):
+for col, (title, path) in zip(cert_cols, certs):
     with col:
         st.image(path, caption=title, use_container_width=True)
-        st.markdown(f"[🔗 View Certificate]({url})", unsafe_allow_html=True)
 
 # --- Extracurricular Activities ---
 st.markdown('<div id="activities"></div>', unsafe_allow_html=True)
