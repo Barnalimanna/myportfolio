@@ -99,16 +99,17 @@ with profile_cols[1]:
     st.image(profile_image, width=150, caption="Barnali Manna")
 
 st.markdown("<h1 class='center animated'>Hey! I'm Barnali Manna 👋</h1>", unsafe_allow_html=True)
-st.markdown("<h3 class='center animated'>🌟 Data Analyst | B.Tech CSE Student | Explorer of Data-Driven Insights</h3>", unsafe_allow_html=True)
+st.markdown("<h3 class='center animated'>🌟 Data Analyst | B.Tech CSE Student | Explorer of Fullstack Web development</h3>", unsafe_allow_html=True)
 
 # --- About Me ---
 st.markdown('<div id="about"></div>', unsafe_allow_html=True)
 st.subheader("About Me")
 st.write("""
-I'm Barnali Manna, a Computer Science undergrad from Brainwire University with a CGPA of 8.74.
-         
-💻 I'm passionate about transforming raw data into meaningful insights that drive impactful decisions. With skills in R, Excel, Tableau, Python, and SQL, I focus on solving real-world problems and creating innovative, data-centric solutions.
-📊 I also explore data analysis in Python (Pandas, NumPy, Seaborn) and dashboarding with Tableau.
+I'm Barnali Manna, a Computer Science undergrad from Brainwire University with a CGPA of 8.70.
+
+Enthusiastic and hardworking B.Tech CSE (Data Science) student with a strong interest in programming,
+statistical analysis and machine learning. Seeking an opportunity to learn and contribute to innovative IT
+projects while growing my technical skills and knowledge.
 """)
 # --- Education ---
 st.markdown("### 🎓 Education")
@@ -184,9 +185,9 @@ st.markdown('<div id="projects"></div>', unsafe_allow_html=True)
 st.subheader("Projects")
 
 projects = [
-    (" BMI - Calculator", "- **Tech Stack:** Python, Apache Kafka, AWS S3, Spark, Tableau  \n- Built a real-time pipeline for flight & weather data, stored in S3 and analyzed with Spark and Tableau.", "https://tkltincb1syh8x7dyybwjq.on.drv.tw/www.bmicalculator.com/"),
-    (" House PricingSite", "- Used K-Means clustering to group customers for marketing insights.  \n- **Tech Stack:** Pandas, Seaborn, Scikit-learn", "https://tkltincb1syh8x7dyybwjq.on.drv.tw/www.house-price-prediction.com/"),
-    (" Motorola MobileSales Dashboard – Interactive Visuals", "Created a dashboard with slicers, pivot tables, and charts to analyze company KPIs.", "https://app.powerbi.com/groups/me/reports/5da5f500-0b26-4afb-86c9-ea24a2464c8d/8552c77386d8085392cc?experience=power-bi"),
+    (" BMI - Calculator", "- **Tech Stack:** HTML, CSS, JavaScript, Jquery \n- Developed a BMI Calculator website using HTML, CSS for calcutaion part JavaScript is used. Using Jquery an interactive background is created.", "https://tkltincb1syh8x7dyybwjq.on.drv.tw/www.bmicalculator.com/"),
+    (" House PricingSite", "- **Tech Stack:** HTML, CSS, JavaScript \n- Predict the house or Flat price according to customer’s demanded feature.", "https://tkltincb1syh8x7dyybwjq.on.drv.tw/www.house-price-prediction.com/"),
+    (" Motorola MobileSales Dashboard – Interactive Visuals", "- **Tech Stack:** PowerBI \n- An interactive Dashboard, shows comprehensive view of sales performance, helping businesses track key metrics, analyze trends, and make informed decisions.", "https://app.powerbi.com/groups/me/reports/5da5f500-0b26-4afb-86c9-ea24a2464c8d/8552c77386d8085392cc?experience=power-bi"),
 ]
 
 for title, desc, link in projects:
